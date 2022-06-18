@@ -1,0 +1,36 @@
+.mainform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4rem;
+}
+
+.mainform input {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  color: var(--gray-300);
+}
+
+.mainform button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--blue-600);
+  color: var(--gray-100);
+  font-weight: 600;
+  transition: background 0.5s;
+}
+
+.mainform button:hover {
+  background: var(--blue-500);
+}
+
+.mainform button svg {
+  margin-left: 0.5rem;
+}
