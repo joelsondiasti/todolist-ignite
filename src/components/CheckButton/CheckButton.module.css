@@ -1,0 +1,30 @@
+.btn {
+  background: transparent;
+  border-radius: 50%;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--blue-500);
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: var(--blue-600-o-20);
+}
+
+.btnChecked {
+  background: var(--purple-600);
+  border: none;
+  border-radius: 50%;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--gray-100);
+  transition: background 0.2s;
+}
+
+.btnChecked:hover {
+  background: var(--purple-500);
+}
+
+.btn:focus,
+.btnChecked:focus {
+  box-shadow: none;
+}

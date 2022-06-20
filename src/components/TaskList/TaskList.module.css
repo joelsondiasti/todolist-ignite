@@ -1,0 +1,51 @@
+#taskHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#taskHeader p {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--purple-500);
+}
+
+#taskHeader p:first-child {
+  color: var(--blue-500);
+}
+
+#taskHeader p span {
+  display: inline-block;
+  color: var(--gray-200);
+  background: var(--gray-500);
+  padding: 0.2rem 0.75rem;
+  margin-left: 0.5rem;
+  border-radius: 5rem;
+  font-size: 0.75rem;
+}
+
+#taskList {
+  list-style: none;
+}
+
+#taskList li + li {
+  margin-top: 0.75rem;
+}
+
+#emptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-300);
+}
+
+#emptyList h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+#emptyList h2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
