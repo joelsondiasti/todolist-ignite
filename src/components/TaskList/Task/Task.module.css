@@ -19,20 +19,20 @@
   line-height: 1.4;
 }
 
-.task > button {
+.trash {
   background: transparent;
 }
 
-.task > button svg {
+.trash svg {
   color: var(--gray-300);
   transition: color 0.5s;
 }
 
-.task > button svg:hover {
+.trash svg:hover {
   color: var(--red-500);
 }
 
-.scratch{
+.scratch {
   text-decoration: line-through;
-  color:var(--gray-300);
+  color: var(--gray-300);
 }

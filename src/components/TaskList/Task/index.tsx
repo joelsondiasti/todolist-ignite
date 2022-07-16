@@ -22,7 +22,7 @@ export function Task({ id, checked, task, handleCheckChange, handleDeleteTask}: 
         onCheckChange={handleCheckChange}
       />
       <p>{task}</p>
-      <button onClick={()=>handleDeleteTask(id)}><Trash size={20} /></button>
+      <button className={styles.trash} onClick={()=>handleDeleteTask(id)}><Trash size={20} /></button>
     </li>
   );
 }
